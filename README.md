@@ -1,5 +1,15 @@
-# Vue 3 + TypeScript + Vite
+# Форма управления учетными записями
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Стек
+- Vue 3 (Composition API)
+- TypeScript
+- Pinia
+- Vuetify
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Установка
+1. Склонируйте репозиторий: `git clone <ссылка>`
+2. Установите зависимости: `npm install`
+3. Запустите проект: `npm run dev`
+
+## Описание
+Реализована форма для управления учетными записями с добавлением, удалением и валидацией полей. Данные сохраняются в Pinia.
